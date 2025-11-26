@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>HTML5 tables Kurzy & Bootstrap</title>
+</head>
+
+<body class="bg-primary-subtle min-vh-100 py-5">
+    <div class="container">
+        <header class="bg-white rounded-3 shadow p-4 mb-4">
+            <h1 class="display-4 mb-3">Registrace do kurzů</h1>
+            <p class="lead mb-0">Vyberte si z naší nabídky kurzů webdesignu a programování. Každý kurz obsahuje
+                informace o lektorovi, ceně, kapacitě a možnosti registrace. Kurzy jsou rozděleny podle úrovně
+                obtížnosti a zaměření.</p>
+        </header>
+
+        <div class="bg-white rounded-3 shadow p-4">
+            <div class="table-responsive rounded">
+                <!-- todo table -->
+
+                <!-- helper block -->
+                <div class="form-check form-switch d-inline-block">
+                    <input class="form-check-input" type="checkbox" role="switch" id="switchBeginners">
+                    <label class="form-check-label" for="switchBeginners">Vybrat vše</label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="htmlBasics">
+                    <label class="form-check-label" for="htmlBasics">Přihlásit</label>
+                </div>
+
+                <small class="text-muted d-block">
+                    <strong>Popis:</strong> Naučte se základy značkovacího jazyka HTML5 a kaskádových stylů CSS3. Kurz
+                    zahrnuje sémantické značky, flexbox, grid a responzivní design.
+                </small>
+                <small class="text-muted d-block mt-1">
+                    <strong>Termín:</strong> Úterý 16:00-18:00 | <strong>Začátek:</strong> 15. 1. 2026
+                </small>
+
+                <small class="text-muted d-block">
+                    <strong>Popis:</strong> Úvod do programování v JavaScriptu. Proměnné, funkce, podmínky, cykly, práce
+                    s DOM a základy událostí.
+                </small>
+                <small class="text-muted d-block mt-1">
+                    <strong>Termín:</strong> Čtvrtek 17:00-19:00 | <strong>Začátek:</strong> 20. 1. 2026
+                </small>
+
+                <small class="text-muted d-block">
+                    <strong>Popis:</strong> Naučte se vytvářet moderní webové aplikace pomocí React frameworku.
+                    Komponenty, hooks, state management a propojení s API.
+                </small>
+                <small class="text-muted d-block mt-1">
+                    <strong>Termín:</strong> Středa 18:00-20:30 | <strong>Začátek:</strong> 10. 2. 2026
+                </small>
+
+                <small class="text-muted d-block">
+                    <strong>Popis:</strong> Backend development s Node.js a Express frameworkem. REST API, databáze,
+                    autentizace a deployment.
+                </small>
+                <small class="text-muted d-block mt-1">
+                    <strong>Termín:</strong> Pátek 16:30-19:00 | <strong>Začátek:</strong> 5. 2. 2026
+                </small>
+
+                <small class="text-muted d-block">
+                    <strong>Popis:</strong> Základy uživatelského rozhraní a uživatelské zkušenosti. Figma, wireframing,
+                    prototyping a designové systémy.
+                </small>
+                <small class="text-muted d-block mt-1">
+                    <strong>Termín:</strong> Pondělí 17:00-19:30 | <strong>Začátek:</strong> 25. 1. 2026
+                </small>
+
+                <small class="text-muted d-block">
+                    <strong>Popis:</strong> Pokročilé techniky responzivního designu. Mobile-first přístup, media
+                    queries, CSS Grid, Flexbox a optimalizace pro různá zařízení.
+                </small>
+                <small class="text-muted d-block mt-1">
+                    <strong>Termín:</strong> Úterý 18:00-20:00 | <strong>Začátek:</strong> 28. 1. 2026
+                </small>
+                <!-- helper block end -->
+
+            </div>
+
+            <div class="text-center mt-4">
+                <button type="button" class="btn btn-primary btn-lg me-2">
+                    <i class="bi bi-check-circle"></i> Potvrdit registrace
+                </button>
+                <button type="button" class="btn btn-outline-secondary btn-lg me-2">
+                    <i class="bi bi-x-circle"></i> Zrušit výběr
+                </button>
+                <button type="button" class="btn btn-outline-info btn-lg">
+                    <i class="bi bi-download"></i> Stáhnout program
+                </button>
+            </div>
+
+            <div class="alert alert-info mt-4" role="alert">
+                <h5 class="alert-heading">Informace o registraci</h5>
+                <p class="mb-0">Studenti střední školy mají slevu 20% na všechny kurzy. Při registraci do 3 a více kurzů
+                    získáte další slevu 15%. Platbu lze rozložit na splátky.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
